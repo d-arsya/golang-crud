@@ -1,6 +1,6 @@
 module books-api
 
-go 1.24.0
+go 1.20.0
 
 require (
 	github.com/jackc/pgpassfile v1.0.0 // indirect
