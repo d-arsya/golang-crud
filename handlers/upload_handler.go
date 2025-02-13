@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"books-api/api/storage"
+	"books-api/storage"
 	"fmt"
 	"net/http"
 )

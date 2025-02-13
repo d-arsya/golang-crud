@@ -1,8 +1,8 @@
 package main
 
 import (
-	"books-api/api/config"
-	"books-api/api/routes"
+	"books-api/config"
+	"books-api/routes"
 	"log"
 	"net/http"
 )

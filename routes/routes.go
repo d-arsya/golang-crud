@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"books-api/api/handlers"
+	"books-api/handlers"
 	"net/http"
 )
 

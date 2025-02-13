@@ -1,8 +1,8 @@
 package storage
 
 import (
-	"books-api/api/config"
-	"books-api/api/models"
+	"books-api/config"
+	"books-api/models"
 	"context"
 	"errors"
 	"strconv"
