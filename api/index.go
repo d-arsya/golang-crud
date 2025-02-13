@@ -1,16 +1,14 @@
-package main
+package api
 
 import (
 	"books-api/config"
 	"books-api/routes"
-	"log"
 	"net/http"
 )
 
-func main() {
+// Handler untuk Vercel Serverless Function
+func Handler(w http.ResponseWriter, r *http.Request) {
 	config.ConnectDB()
 	routes.RegisterRoutes()
-
-	log.Println("Server running on port 8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	http.DefaultServeMux.ServeHTTP(w, r)
 }
